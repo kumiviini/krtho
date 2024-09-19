@@ -1,0 +1,245 @@
+@import url("muuttuvat.css");
+
+a {
+  font-weight: 500;
+  color: var(--teksti);
+  text-decoration: inherit;
+  font-size: 14px;
+}
+a:hover {
+  font-weight: 1000;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.fullscreen {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.vHaku {
+  display: flex;
+  position: fixed;
+  margin-top: -20px;
+  z-index: 7;
+}
+
+.paivainput {
+  color: white;
+  width: 110px;
+  height: 40px;
+  border: 0.5px solid white;
+  background-color: transparent;
+  text-align: center;
+  margin-left: -5px;
+  position: static;
+  z-index: 7;
+}
+
+.haeNappi {
+  height: 43px;
+  padding: 11px;
+  position: static;
+  background-color: transparent;
+  border: 0.5px solid white;
+  color: white;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 0px;
+  margin-top: 0px;
+  z-index: 7;
+}
+
+.alapalkero {
+  border-top: 0.5px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 350px;
+  margin-top: 540px;
+
+  background-color: var(--primary);
+  position: fixed;
+  z-index: 7;
+}
+
+.kierto {
+  position: fixed;
+  margin-top: 505px;
+  font: 14px;
+  margin-left: 20px;
+  color: var(--teksti);
+  font-size: 14px;
+  font-weight: 500;
+  /* letter-spacing: 2px; */
+}
+
+.KellonAika {
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left: 17px;
+  font-weight: 500;
+
+  width: 170px;
+  height: 15px;
+  z-index: 8;
+}
+.alasVeto {
+  font-size: 12px;
+  width: 105px;
+  height: 42px;
+  background-color: transparent;
+  color: white;
+  margin-left: 36px;
+  border: 0.5px solid white;
+  text-align: left;
+  position: static;
+  z-index: 7;
+}
+
+.nollaus {
+  color: black;
+  position: fixed;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 150px;
+  height: 19px;
+  margin-left: 100px;
+  margin-top: 35px;
+  border: 1px solid black;
+  font-weight: 900;
+  z-index: 4;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.alapalk {
+  height: 31px;
+  width: 350px;
+  position: fixed;
+  bottom: 0;
+  left: 0%;
+  background-color: var(--primary);
+  z-index: 10;
+  /*{bottom: calc(min(0px, 700px - 100vh));}*/
+}
+
+.varit {
+  position: fixed;
+  height: 30px;
+  width: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 230px;
+  margin-top: 545px;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  z-index: 8;
+}
+.vari0 {
+  height: 20px;
+  width: 20px;
+  border: 0.5px solid white;
+  border-radius: 100%;
+  margin-left: 2px;
+  margin-top: 2px;
+  background-color: rgb(115, 147, 179);
+  z-index: 7;
+  display: flex;
+  position: static;
+  border: 0.5px solid white;
+}
+.vari1 {
+  height: 20px;
+  width: 20px;
+  border: 0.5px solid white;
+  border-radius: 100%;
+  margin-left: 2px;
+  margin-top: 2px;
+  background-color: rgb(0, 71, 171);
+  z-index: 7;
+  display: flex;
+  position: static;
+  border: 0.5px solid white;
+}
+.vari2 {
+  height: 20px;
+  width: 20px;
+  border: 0.5px solid white;
+  border-radius: 100%;
+  margin-left: 2px;
+  margin-top: 2px;
+  background-color: rgb(0, 255, 255);
+  z-index: 7;
+  display: flex;
+  position: static;
+  border: 0.5px solid white;
+}
+.vari3 {
+  height: 20px;
+  width: 20px;
+  border: 0.5px solid white;
+  border-radius: 100%;
+  margin-left: 2px;
+  margin-top: 2px;
+  background-color: rgb(53, 57, 53);
+  z-index: 7;
+  display: flex;
+  position: static;
+  border: 0.5px solid white;
+}
+.vari4 {
+  height: 20px;
+  width: 20px;
+  border: 0.5px solid white;
+  border-radius: 100%;
+  margin-left: 2px;
+  margin-top: 2px;
+  background-color: rgb(37, 199, 75);
+  z-index: 7;
+  display: flex;
+  position: static;
+  border: 0.5px solid white;
+}
+.vari5 {
+  height: 20px;
+  width: 20px;
+  border: 0.5px solid white;
+  border-radius: 100%;
+  margin-left: 2px;
+  margin-top: 2px;
+  background-color: rgb(204, 204, 255);
+  z-index: 7;
+  display: flex;
+  position: static;
+  border: 0.5px solid white;
+}
+.jemma {
+  height: 31px;
+  width: 350px;
+  bottom: 0;
+  left: 0%;
+  position: fixed;
+  margin-top: 0px;
+  background-color: var(--primary);
+  z-index: 11;
+}
+
+.ag-theme-material .ag-row {
+  margin: 0;
+}
